@@ -1,7 +1,7 @@
 // GreenLedger Odisha - Enhanced Agricultural Blockchain Landing Page
 
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
@@ -89,6 +89,7 @@ const stats = [
 
 const Index = () => {
   const { state } = useDemoStore();
+  const navigate = useNavigate();
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -257,7 +258,7 @@ const Index = () => {
                   className="interactive-card cursor-pointer group hover-glow border-border/50 bg-card/50 backdrop-blur-sm"
                   whileHover={{ scale: 1.03, rotateY: 5 }}
                   whileTap={{ scale: 0.97 }}
-                  onClick={() => feature.link !== '#' && (window.location.href = feature.link)}
+                  onClick={() => feature.link !== '#' && navigate(feature.link)}
                   style={{ transformStyle: 'preserve-3d' }}
                 >
                   <CardHeader>

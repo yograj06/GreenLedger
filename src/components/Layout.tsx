@@ -79,7 +79,6 @@ export function Layout({ children }: LayoutProps) {
             >
               🌿 GreenLedger
             </motion.span>
-            <Badge variant="outline" className="text-xs">Odisha</Badge>
           </Link>
 
           {/* Navigation */}
@@ -156,7 +155,7 @@ export function Layout({ children }: LayoutProps) {
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="flex items-center gap-4">
               <span className="text-sm text-muted-foreground">
-                © 2024 GreenLedger Odisha - Agricultural Supply Chain Demo
+                © 2024 GreenLedger - Agricultural Supply Chain Demo
               </span>
               <Badge variant="secondary" className="blockchain-badge text-xs">
                 Blockchain Simulated
