@@ -59,6 +59,10 @@ IVR/SMS API → Support for non-smartphone farmers
 
 Geolocation → Odisha district-level operations
 
+🔄 Workflow 
+
+Farmer registers & adds crop → QR code generated → Transporter picks up crops → Delivery to Retailer → Smart Contract verifies delivery → Payments released automatically → Trust Score updated & Consumer verifies via QR code → Admin monitors analytics
+
 🌍 Impact
 
 Economic: Timely and fair payments for farmers.
@@ -68,57 +72,5 @@ Social: Builds trust among all supply chain stakeholders.
 Consumer: Verified authenticity of agricultural produce.
 
 Scalable: Odisha-first, with pan-India expansion potential.
-
-🔄 Workflow (Text-Based)
-
-Farmer Registration
-
-Farmer registers via app/SMS/IVR.
-
-Uploads crop details (type, quantity, location).
-
-A unique QR code is generated for the crop batch.
-
-Transporter Allocation
-
-Transporter accepts delivery request.
-
-Transporter’s trust score and availability are verified.
-
-Retailer Request
-
-Retailer places an order for crops.
-
-Payment is locked in a blockchain-based escrow smart contract.
-
-Crop Delivery
-
-Transporter delivers produce to retailer.
-
-Retailer scans the QR code to verify origin and authenticity.
-
-Smart Payment Release
-
-Once delivery is confirmed, blockchain triggers automatic payment release:
-
-Farmer gets crop payment.
-
-Transporter gets delivery fee.
-
-Trust Score Update
-
-Ratings and trust scores for Farmer, Transporter, Retailer are updated on blockchain.
-
-Consumer Verification
-
-End-consumer scans QR code on the product.
-
-Can view entire journey: Farmer → Transporter → Retailer → Consumer.
-
-Admin & Analytics
-
-Admin monitors supply chain data.
-
-Analytics dashboard shows crop flow, payments, and trust metrics.
 
 ✨ GreenLedger – Empowering farmers, enabling trust, and making agriculture future-ready with blockchain. 🌱
