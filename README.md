@@ -1,73 +1,124 @@
-# Welcome to your Lovable project
+🌱 GreenLedger – Blockchain-Based Supply Chain Transparency
+📌 Introduction
 
-## Project info
+GreenLedger is a blockchain-powered platform designed to bring trust, transparency, and efficiency to the agricultural supply chain.
+It ensures secure payments, product traceability, and stakeholder accountability using Polygon blockchain and smart contracts while supporting both smartphone and non-smartphone farmers.
 
-**URL**: https://lovable.dev/projects/a6a2d95f-e98c-4382-9549-5ee341f6de2d
+⭐ Key Highlights
 
-## How can I edit this code?
+Immutable Records: Every crop, transaction, and delivery is securely stored on blockchain.
 
-There are several ways of editing your application.
+Smart Payments (Escrow): Automatic release of funds to farmers and transporters after verified delivery.
 
-**Use Lovable**
+Trust Score System: Reputation tracking for farmers, transporters, and retailers.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/a6a2d95f-e98c-4382-9549-5ee341f6de2d) and start prompting.
+QR Code Traceability: Consumers can scan and verify the origin and journey of produce.
 
-Changes made via Lovable will be committed automatically to this repo.
+User Dashboards: Role-based dashboards for Farmers, Transporters, Retailers, Consumers, and Admins.
 
-**Use your preferred IDE**
+Accessibility: Support for SMS/IVR to include farmers without smartphones.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Analytics Dashboard: Real-time insights for admins and policy makers.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+🏗️ Tech Stack
+⚙️ Core Framework & Tools
 
-Follow these steps:
+React + TypeScript → Frontend
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Node.js + Express.js → Backend
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Vite → Fast build & dev server
 
-# Step 3: Install the necessary dependencies.
-npm i
+🎨 Styling & UI
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Tailwind CSS, ShadCN/UI, Framer Motion → Responsive & animated UI
 
-**Edit a file directly in GitHub**
+Lucide Icons → Modern icons
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+🔗 Blockchain Integration
 
-**Use GitHub Codespaces**
+Polygon (Mumbai Testnet) → Low-cost blockchain network
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Solidity Smart Contracts → Payments, trust score updates, escrow
 
-## What technologies are used for this project?
+QR Code Integration → Crop traceability
 
-This project is built with:
+📊 Data & State Management
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+React Query, Zustand → Data & client state
 
-## How can I deploy this project?
+PostgreSQL → Relational database
 
-Simply open [Lovable](https://lovable.dev/projects/a6a2d95f-e98c-4382-9549-5ee341f6de2d) and click on Share -> Publish.
+Zod → Schema validation
 
-## Can I connect a custom domain to my Lovable project?
+📡 Specialized Features
 
-Yes, you can!
+Recharts → Analytics & data visualization
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+IVR/SMS API → Support for non-smartphone farmers
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Geolocation → Odisha district-level operations
+
+🌍 Impact
+
+Economic: Timely and fair payments for farmers.
+
+Social: Builds trust among all supply chain stakeholders.
+
+Consumer: Verified authenticity of agricultural produce.
+
+Scalable: Odisha-first, with pan-India expansion potential.
+
+🔄 Workflow (Text-Based)
+
+Farmer Registration
+
+Farmer registers via app/SMS/IVR.
+
+Uploads crop details (type, quantity, location).
+
+A unique QR code is generated for the crop batch.
+
+Transporter Allocation
+
+Transporter accepts delivery request.
+
+Transporter’s trust score and availability are verified.
+
+Retailer Request
+
+Retailer places an order for crops.
+
+Payment is locked in a blockchain-based escrow smart contract.
+
+Crop Delivery
+
+Transporter delivers produce to retailer.
+
+Retailer scans the QR code to verify origin and authenticity.
+
+Smart Payment Release
+
+Once delivery is confirmed, blockchain triggers automatic payment release:
+
+Farmer gets crop payment.
+
+Transporter gets delivery fee.
+
+Trust Score Update
+
+Ratings and trust scores for Farmer, Transporter, Retailer are updated on blockchain.
+
+Consumer Verification
+
+End-consumer scans QR code on the product.
+
+Can view entire journey: Farmer → Transporter → Retailer → Consumer.
+
+Admin & Analytics
+
+Admin monitors supply chain data.
+
+Analytics dashboard shows crop flow, payments, and trust metrics.
+
+✨ GreenLedger – Empowering farmers, enabling trust, and making agriculture future-ready with blockchain. 🌱
